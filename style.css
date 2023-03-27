@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(209, 132, 103);
+}
+.main
+{
+    display: grid;
+}
+.cha
+{
+    width: 97%;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: purple;
+    color: wheat;
+    display: flex;
+    align-items: center;
+}
+.content
+{
+    display: grid;
+    margin: 10px;
+}
+.one
+{
+    height: 35px;
+    border: 1px solid gray;
+    width: 300px;
+    background-color: skyblue;
+    color: white;
+    padding: 1px;
+}
+.two
+{
+    height: 35px;
+    border: 1px solid gray;
+    width: 300px;
+    background-color: skyblue;
+    color: white;
+    padding: 1px;
+}
+.three
+{
+    height: 35px;
+    border: 1px solid gray;
+    width: 300px;
+    background-color: skyblue;
+    color: white;
+    padding: 1px;
+}
+.four
+{
+    height: 35px;
+    border: 1px solid gray;
+    width: 300px;
+    background-color: skyblue;
+    color: white;
+    padding: 1px;
+}
+.city
+{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+    line-height: 60px;
+}
+.p
+{
+    font-size: small;
+}
+.whose
+{
+    border: 1px solid gray;
+    height: 440px;
+    width: 18%;
+    background-color: skyblue;
+    color: white;
+    position: relative;
+    left: 1074px;
+    bottom: 280px;
+    line-height: 50px;
+}
+.resize
+{
+    border: 1px solid gray;
+    height: 45px;
+    width: 100%;
+    color: white;
+    background-color: skyblue;
+    position: relative;
+    bottom: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:375px) and (max-width:480px)
+{
+    .main
+    {
+        display: block;
+    }
+    .cha
+    {
+        width: 90%;
+    }
+    .city
+    {
+        bottom: 5px;
+        left: 12px;
+        width: 90%;
+    }
+    .whose
+    {
+        left: 3px;
+        top: 15px;
+        height: auto;
+        width: 70%;
+    }
+    .resize
+    {
+        bottom: -30px;
+        width: 70%;
+    }
+}
+@media screen and (min-width:760px) and (max-width:1000px)
+{
+    .cha
+    {
+        width: 94%;
+        height: 45px;
+    }
+    .one
+    {
+        width:96%;
+    }
+    .two
+    {
+        width: 96%;
+    }
+    .three
+    {
+        width: 96%;
+    }
+    .four
+    {
+        width: 96%;
+    }
+    .city
+    {
+        bottom: 1px;
+        left: 1px;
+    }
+    .whose
+    {
+        bottom: 1px;
+        left: 1px;
+        width: 650px;
+        margin: 50px;
+        padding: 1px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .resize
+    {
+        bottom: 25px;
+    }
+}
